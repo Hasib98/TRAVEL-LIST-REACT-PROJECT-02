@@ -25,7 +25,13 @@ body {
   font-weight: 500;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .form-input {
+    gap: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
 .app {
   width: 100%;
@@ -171,5 +177,7 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 600px) {
-  .stats {}
+  .stats {
+    padding: 5rem;
+  }
 }
